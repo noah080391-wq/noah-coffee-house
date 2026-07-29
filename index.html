@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NOAH Coffee House — กาแฟพิเศษ ขนมอบสด และพื้นที่อบอุ่นสำหรับทุกช่วงเวลาของคุณ"
+    />
+    <title>NOAH Coffee House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="NOAH Coffee House หน้าแรก">
+        <span class="brand-mark">N</span>
+        <span>
+          <strong>NOAH</strong>
+          <small>COFFEE HOUSE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">เปิดเมนู</span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="เมนูหลัก">
+        <a class="active" href="#home">หน้าแรก</a>
+        <a href="#menu">เมนู</a>
+        <a href="#story">เรื่องราว</a>
+        <a href="#visit">ติดต่อ</a>
+      </nav>
+
+      <a class="header-cta" href="#visit">เยี่ยมชมร้าน</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">SPECIALTY COFFEE · BANGKOK</p>
+          <h1>ทุกแก้ว<br />เริ่มต้นจาก<br /><em>ความตั้งใจ</em></h1>
+          <p class="hero-text">
+            จากเมล็ดกาแฟที่คัดสรรอย่างพิถีพิถัน สู่รสชาติอบอุ่นที่พร้อมทำให้ทุกวันของคุณพิเศษขึ้น
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">ดูเมนู <span>→</span></a>
+            <a class="button button-secondary" href="#story">รู้จักเรา</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>07:00–19:00</strong><span>เปิดทุกวัน</span></div>
+            <div><strong>100%</strong><span>เมล็ดกาแฟคัดพิเศษ</span></div>
+          </div>
+        </div>
+
+        <div class="hero-image" role="img" aria-label="กาแฟลาเต้และครัวซองต์บนโต๊ะไม้">
+          <div class="hero-badge">
+            <span>ROASTED</span>
+            <strong>WITH<br />CARE</strong>
+            <span>DAILY</span>
+          </div>
+          <p class="image-note">Slow morning,<br />better coffee.</p>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">OUR SIGNATURES</p>
+            <h2>เมนูที่เรา<br /><em>อยากให้คุณลอง</em></h2>
+          </div>
+          <p>รสชาติเรียบง่าย แต่มีรายละเอียด เลือกวัตถุดิบที่ดีและปรุงสดใหม่ทุกแก้ว</p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card featured">
+            <div class="menu-number">01</div>
+            <div class="menu-art latte-art" aria-hidden="true"><span></span></div>
+            <div class="menu-info">
+              <div><h3>NOAH Signature Latte</h3><p>เอสเปรสโซเข้ม นมสด และคาราเมลโฮมเมด</p></div>
+              <strong>฿145</strong>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-number">02</div>
+            <div class="menu-art pour-art" aria-hidden="true"><span></span></div>
+            <div class="menu-info">
+              <div><h3>Hand Drip Selection</h3><p>เมล็ดประจำฤดูกาล คั่วอ่อน หอมผลไม้</p></div>
+              <strong>฿180</strong>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-number">03</div>
+            <div class="menu-art pastry-art" aria-hidden="true"><span></span></div>
+            <div class="menu-info">
+              <div><h3>Almond Croissant</h3><p>ครัวซองต์เนยสด อัลมอนด์หอม กรอบนอกนุ่มใน</p></div>
+              <strong>฿125</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="story-section">
+        <div class="story-image" role="img" aria-label="บาริสต้ากำลังชงกาแฟ">
+          <span>EST. 2026</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">OUR STORY</p>
+          <h2>พื้นที่เล็ก ๆ<br />สำหรับช่วงเวลา<br /><em>ที่มีความหมาย</em></h2>
+          <p>
+            NOAH เกิดจากความเชื่อว่า กาแฟที่ดีไม่ได้มีเพียงรสชาติ แต่ยังเชื่อมโยงผู้คนเข้าหากัน
+            เราจึงใส่ใจตั้งแต่แหล่งปลูก การคั่ว ไปจนถึงรอยยิ้มที่ส่งมอบให้คุณ
+          </p>
+          <blockquote>“เราไม่ได้เสิร์ฟแค่กาแฟ<br />เราเสิร์ฟช่วงเวลาดี ๆ”</blockquote>
+          <a href="#visit" class="text-link">มาพบกันที่ร้าน <span>↗</span></a>
+        </div>
+      </section>
+
+      <section id="visit" class="visit-section section">
+        <div class="visit-card">
+          <p class="eyebrow">COME SAY HELLO</p>
+          <h2>แวะมาพัก<br /><em>แล้วดื่มกาแฟด้วยกัน</em></h2>
+          <div class="visit-details">
+            <div><span>ที่อยู่</span><strong>กรุงเทพมหานคร ประเทศไทย</strong></div>
+            <div><span>เวลาเปิด</span><strong>ทุกวัน 07:00–19:00 น.</strong></div>
+            <div><span>โทรศัพท์</span><strong>02-000-0000</strong></div>
+          </div>
+          <a class="button button-primary" href="https://maps.google.com" target="_blank" rel="noreferrer">
+            เปิดแผนที่ <span>↗</span>
+          </a>
+        </div>
+        <div class="visit-quote">
+          <span>GOOD COFFEE</span>
+          <strong>GOOD<br /><em>PEOPLE.</em></strong>
+          <p>แบ่งปันช่วงเวลาของคุณกับเรา <b>#NoahCoffeeHouse</b></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark">N</span>
+        <span><strong>NOAH</strong><small>COFFEE HOUSE</small></span>
+      </a>
+      <p>© 2026 NOAH Coffee House. Crafted with care.</p>
+      <div class="social-links"><a href="#">Instagram</a><a href="#">Facebook</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
